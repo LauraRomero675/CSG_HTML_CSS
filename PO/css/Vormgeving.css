@@ -1,0 +1,312 @@
+body {
+    background-color: #ff97ad;
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    box-sizing: border-box;
+    font-family:Magic-font; 
+    } 
+
+#prints {
+    background-color: #ff97ad;
+}
+
+    
+    section {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0%;
+        
+    }
+    
+    h1{
+        color: rgb(0, 0, 0);
+        background-color:#f0deca ; 
+        text-align: center; 
+        margin: 0; 
+        padding: 52px 0; 
+        font-size: 125px;
+    }
+
+    
+.navbar ul{
+background-color: #eba56d;
+list-style-type: none;
+overflow: hidden;
+padding: 0%;
+margin: 0%;
+text-align: center;
+justify-content: center;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10%;
+    text-align: center;
+    }
+
+.navbar a:hover{
+        background-color: #d1803d;
+        border-radius: 20%;
+       
+    }
+    .navbar li {
+        display: inline-block;
+        text-align: center;
+        margin: 0 20px;
+        font-size: 2rem;
+        width: 200px;
+        color: #111;
+        background-color: #eba56d;
+        padding: 5px 15px;
+    
+}
+    
+    .one {
+        background-color: #ff97ad;
+        padding-bottom: 20%;
+    }
+
+    .one p{
+        margin-top: 3%;
+        font-size: 125px;
+    }
+
+    .hot-items img{
+        width: 250px;                                
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0%;
+        padding: 20px;
+        background-color: rgb(206, 113, 253);
+        border-radius: 10px;
+    }
+    .hot-items a :hover{
+        background-color: rgb(206, 113, 253);;                  
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    .two {
+        display: flex; /* Zorgt voor een zij-aan-zij lay-out */
+        height: 100vh;
+        background: #f0deca;
+        border-top: 30px solid #eba56d;
+        padding: 2% 5%;
+    }
+    
+    
+    .two .left {
+        flex: 1; 
+        padding-right: 2%; 
+    }
+    
+    .two h2 {
+        margin: 0;
+        padding-left: 0%;
+        font-size: 170px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+    .two p {
+        padding-left: 25%;
+        max-width: 50%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.6;
+    }
+    h20{
+        margin-top: -500px;
+        font-size: 500px;
+    }
+    h21{
+        
+        font-size: 40px;
+    }
+    h22{
+        font-size: 40px;
+    }
+    .three {
+        background: linear-gradient(to top, #f8e399 50%, #ff97ad 50%);
+        border-top: 30px solid #eba56d;
+        padding-top: 25% 
+        
+    }
+
+    .our-posters{
+        margin-top: 5%;
+    }
+    .our-posters img{
+        width: 200px;                               
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 25%;
+        padding: 10px;
+        background-color: palevioletred;
+        border-radius: 10px;
+    }
+    .fruit-posters img {
+        width: 200px;                                 
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 55%;
+        padding: 10px;
+        background-color: palevioletred;
+        border-radius: 10px;
+    }
+    .vintage img{
+        width: 200px;                                
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        padding: 10px;
+        background-color: palevioletred;
+        border-radius: 10px;
+        margin-bottom: 20;
+    }
+    
+    .our-posters img{
+           width: 200px;                                
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        padding: 10px;
+        background-color: palevioletred;
+        border-radius: 10px;
+    }
+.the-posters{
+    width: auto;
+    margin-top: 10%;
+    background-color:#f8e399;
+    padding: 20px;
+}
+.the-posters img{
+    width: 200px;                                
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+   
+
+    .two h3 {
+        margin-top: 35%;
+        font-size: 300px;
+    }
+    
+    .four {
+        background-color: #f8e399;
+        padding-top: 25%
+    }
+
+    .the-posters img{
+        width: 200px;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    p13{
+        text-align: center;
+      margin-top: -170px;
+        font-size: 55px;
+    }
+    
+    .five {
+        background-color: #f0deca;
+        border-top: 30px solid #eba56d;
+        margin-bottom: 40;
+    }
+    
+    .five h4{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1px;
+        padding: 0;
+        padding-left: 0%;
+        font-size: 170px;  
+    }
+    .five p5 {
+        text-align: center;
+        margin-top: 20px;
+        padding: 0;                                  
+        padding-left: 0%;
+        font-size: 30px;   
+     }
+    .five p6 {
+        text-align: center;
+        margin-top: 1%;
+        padding: 0;
+        padding-left: 0%;
+        font-size: 30px;  }
+    .five p7 {
+        text-align: center;
+        margin-top: 1%;
+        padding: 0;
+        padding-left: 0%;
+        font-size: 30px;}
+    .five p8 {
+        text-align: center;
+        margin-top: 1%;
+        padding: 0;
+        padding-left: 0%;
+        font-size: 30px;}
+
+    h6 {
+        font-size: 100px;
+        padding-left: 50%;
+        margin-top: 10%;
+    }
+  
+  .dimensions p {
+    font-size: 50px;
+    padding: 0%;
+    padding-left: 50%;
+    margin-top: 10;
+  }
+  .dimensions p {
+    font-size: 50px;
+    padding: 0%;
+    padding-left: 50%;
+    margin-top: 10;
+  }
+
+  
+  #rainbow-page img {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+    width: 500px;           
+}
+#martini-page img {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+    width: 500px;           
+}
+#hearts-page img {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+    width: 500px;           
+}
+p12{
+    font-size: 50px;
+    text-align: center;
+    padding-left: 37%;
+    margin-top: 10%;
+}

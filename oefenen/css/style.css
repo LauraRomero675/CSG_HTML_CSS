@@ -1,6 +1,6 @@
 body {
-    background-image: url(../images/boom.jpg);
-    background-repeat: no-repeat;
-    color: rgb(230, 230, 230);
+    background-attachment: scroll;
+    background-repeat: repeat;
+    color: rgb(255, 151, 173);
     font-family: monospace;
 }
